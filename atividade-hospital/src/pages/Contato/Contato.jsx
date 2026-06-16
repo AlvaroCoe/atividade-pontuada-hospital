@@ -1,46 +1,81 @@
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
+import "./Contato.css";
 
 function Contato() {
   return (
     <>
       <Navbar />
 
-      <section className="section">
+      <section className="contato-hero">
         <div className="container">
+          <h1>Entre em Contato</h1>
+          <p>
+            Estamos prontos para atender você e esclarecer suas dúvidas.
+          </p>
+        </div>
+      </section>
 
-          <h1 className="title">Contato</h1>
+      <section className="section">
+        <div className="container contato-container">
 
-          <p>Telefone: (71) 3333-4444</p>
-          <p>Email: contato@vidaplus.com</p>
+          <div className="info-contato">
 
-          <br />
+            <h2>Informações</h2>
 
-          <form>
+            <div className="info-item">
+              <h3>📞 Telefone</h3>
+              <p>(71) 3333-4444</p>
+            </div>
 
-            <input
-              type="text"
-              placeholder="Nome"
-            />
+            <div className="info-item">
+              <h3>📱 WhatsApp</h3>
+              <p>(71) 99999-8888</p>
+            </div>
 
-            <br /><br />
+            <div className="info-item">
+              <h3>📧 E-mail</h3>
+              <p>contato@vidaplus.com.br</p>
+            </div>
 
-            <input
-              type="email"
-              placeholder="Email"
-            />
+            <div className="info-item">
+              <h3>📍 Endereço</h3>
+              <p>
+                Av. Vasco da Gama, 1000<br />
+                Salvador - BA
+              </p>
+            </div>
 
-            <br /><br />
+          </div>
 
-            <textarea
-              placeholder="Mensagem"
-            />
+          <div className="formulario">
 
-            <br /><br />
+            <h2>Envie uma Mensagem</h2>
 
-            <button>Enviar</button>
+            <form>
 
-          </form>
+              <input
+                type="text"
+                placeholder="Seu nome"
+              />
+
+              <input
+                type="email"
+                placeholder="Seu e-mail"
+              />
+
+              <textarea
+                rows="6"
+                placeholder="Digite sua mensagem"
+              ></textarea>
+
+              <button type="submit">
+                Enviar Mensagem
+              </button>
+
+            </form>
+
+          </div>
 
         </div>
       </section>

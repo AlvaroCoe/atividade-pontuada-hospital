@@ -1,0 +1,90 @@
+.contato-hero {
+  background: linear-gradient(135deg, #0d47a1, #1976d2);
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.contato-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.contato-hero p {
+  font-size: 1.1rem;
+}
+
+.contato-container {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 40px;
+}
+
+.info-contato,
+.formulario {
+  background: white;
+  padding: 35px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,.08);
+}
+
+.info-contato h2,
+.formulario h2 {
+  color: #0d47a1;
+  margin-bottom: 25px;
+}
+
+.info-item {
+  margin-bottom: 25px;
+}
+
+.info-item h3 {
+  margin-bottom: 8px;
+  color: #1976d2;
+}
+
+.formulario form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.formulario input,
+.formulario textarea {
+  padding: 15px;
+  border: 1px solid #d9e3f0;
+  border-radius: 12px;
+  outline: none;
+  font-size: 1rem;
+}
+
+.formulario input:focus,
+.formulario textarea:focus {
+  border-color: #1976d2;
+}
+
+.formulario button {
+  background: #0d47a1;
+  color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: .3s;
+}
+
+.formulario button:hover {
+  background: #1976d2;
+}
+
+@media (max-width: 768px) {
+  .contato-container {
+    grid-template-columns: 1fr;
+  }
+
+  .contato-hero h1 {
+    font-size: 2.2rem;
+  }
+}
