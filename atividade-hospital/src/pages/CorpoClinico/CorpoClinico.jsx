@@ -3,7 +3,7 @@ import Footer from "../../components/Footer/Footer";
 
 import lorrayneFerreira from "../../assets/medicos/lorrayne.jpeg";
 import alvaroCoelho from "../../assets/medicos/alvaro-coelho.jpg";
-import mariaLaura from "../../assets/medicos/maria.jpeg";
+import mariaLuiza from "../../assets/medicos/maria.jng";
 import daniloSena from "../../assets/medicos/danilo-sena.jpg";
 
 // Adicione esta linha bem aqui:
@@ -23,9 +23,9 @@ function CorpoClinico() {
       foto: alvaroCoelho
     },
     {
-      nome: "Dra. Maria Laura",
+      nome: "Dra. Maria Luíza",
       especialidade: "Cardiologista",
-      foto: mariaLaura
+      foto: mariaLuiza
     },
     {
       nome: "Dr. Danilo Sena",
