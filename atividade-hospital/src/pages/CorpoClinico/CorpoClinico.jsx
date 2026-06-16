@@ -3,7 +3,7 @@ import Footer from "../../components/Footer/Footer";
 
 import lorrayneFerreira from "../../assets/medicos/lorrayne.jpeg";
 import alvaroCoelho from "../../assets/medicos/alvaro-coelho.jpg";
-import julianaSouza from "../../assets/medicos/maria.jpeg";
+import mariaLaura from "../../assets/medicos/maria.jpeg";
 import daniloSena from "../../assets/medicos/danilo-sena.jpg";
 
 // Adicione esta linha bem aqui:
