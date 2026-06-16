@@ -1,9 +1,9 @@
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 
-import anaSilva from "../../assets/medicos/ana-silva.jpg";
+import lorrayneFerreira from "../../assets/medicos/lorrayne.jpeg";
 import alvaroCoelho from "../../assets/medicos/alvaro-coelho.jpg";
-import julianaSouza from "../../assets/medicos/juliana-souza.jpg";
+import julianaSouza from "../../assets/medicos/maria.jpeg";
 import daniloSena from "../../assets/medicos/danilo-sena.jpg";
 
 // Adicione esta linha bem aqui:
@@ -13,9 +13,9 @@ function CorpoClinico() {
 
   const medicos = [
     {
-      nome: "Dra. Ana Silva",
-      especialidade: "Cardiologista",
-      foto: anaSilva
+      nome: "Dra. Lorrayne",
+      especialidade: "Otorpedista",
+      foto: lorrayneFerreira
     },
     {
       nome: "Dr. Alvaro Coelho",
@@ -23,13 +23,13 @@ function CorpoClinico() {
       foto: alvaroCoelho
     },
     {
-      nome: "Dra. Juliana Souza",
-      especialidade: "Dermatologista",
-      foto: julianaSouza
+      nome: "Dra. Maria Laura",
+      especialidade: "Cardiologista",
+      foto: mariaLaura
     },
     {
       nome: "Dr. Danilo Sena",
-      especialidade: "Ortopedista",
+      especialidade: "Dermatologista",
       foto: daniloSena
     }
   ];
